@@ -55,6 +55,10 @@ nav ul li a{
     color: whitesmoke;
 }
 nav ul li a:hover{
-    font-size: 1.6rem;
+    font-size: 1.55rem;
+    color: #F7E6C4;
+}
+#element
+{
     color: #F7E6C4;
 }

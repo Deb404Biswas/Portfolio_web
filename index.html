@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <header>
       <nav>
         <div class="nav-left">Biswas's Den</div>
@@ -28,12 +29,19 @@
     <section>
       <div class="section">
         <div class="section-left">
-          Hey! This is <span>Debdwaipayan Biswas</span> and I am a
+          Hey! This is Debdwaipayan Biswas and I am a
+          <span id="element"></span>.
         </div>
         <div class="section-right">
           Hey...this section will contain a picture
         </div>
       </div>
     </section>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Student", "Learner","VITian","Bheto..Bangali :)"],
+        typeSpeed: 100,
+      });
+    </script>
   </body>
 </html>
